@@ -12,26 +12,26 @@
         /*Static*/
         /*Position static*/
         position: static;
-        height: 150px;
+        height: 50px;
       }
 
       .relative-filho {
         background: red;
         position: relative;
-        top: 30px;
-        right: 35px;
-        bottom: 30px;
-        left: 100px;
-
-        width: 120px;
+        top: 80px;
+        right: 80px;
+        bottom: 80px;
+        left: 300px;
+        /*Largura e altura*/
+        width: 80px;
+        height: 20px;
       }
 
       .filho-absolute {
         position: absolute;
         background: red;
 
-        top: 80px;
-        right: center;
+        margin: 50px;
       }
 
       .fixed {
@@ -48,54 +48,15 @@
     </style>
   </head>
   <body>
-    <div class="fixed">Fixed</div>
-
-    <div class="relative-filho">RELATIVE</div>
-
-    texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
-
-    texto 5
-
-    <div class="container">STATIC</div>
-
-    <div class="relative-filho">RELATIVE</div>
-
-    texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
-
     texto 5
     <div class="container">STATIC</div>
 
     <div class="relative-filho">RELATIVE</div>
 
     texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
+    <div class="filho-absolute">ABSOLUTE3</div>
 
     texto 5
-    <div class="container">STATIC</div>
-
-    <div class="relative-filho">RELATIVE</div>
-
-    texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
-
-    texto 5
-    <div class="container">STATIC</div>
-
-    <div class="relative-filho">RELATIVE</div>
-
-    texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
-
-    texto 5
-    <div class="container">STATIC</div>
-
-    <div class="relative-filho">RELATIVE</div>
-
-    texto 3
-    <div class="filho-absolute">ABSOLUTE</div>
-
-    texto 5
+    <div class="fixed">STATIC</div>
   </body>
 </html>
